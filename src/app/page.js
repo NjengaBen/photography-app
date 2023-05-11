@@ -1,5 +1,7 @@
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import Slider from "@/components/slider";
+import { SliderData } from "@/components/sliderdata";
 
 export default function Home() {
   return (
@@ -8,7 +10,7 @@ export default function Home() {
         heading="Captur Photography"
         message="I capture moments in nature and keep them alive"
       />
-      {/* <Navbar /> */}
+      <Slider slides={SliderData} />
     </div>
   );
 }
