@@ -1,5 +1,4 @@
 import Hero from "@/components/Hero";
-import Navbar from "@/components/Navbar";
 import Slider from "@/components/slider";
 import { SliderData } from "@/components/sliderdata";
 
