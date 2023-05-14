@@ -37,7 +37,7 @@ const Navbar = () => {
         </Link>
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
           <li className="p-4">
-            <Link href="/">Home</Link>
+            <Link href="/#home">Home</Link>
           </li>
           <li className="p-4">
             <Link href="/#gallery">Gallery</Link>
@@ -68,7 +68,7 @@ const Navbar = () => {
         >
           <ul>
             <li className="p-4 text-4xl hover:text-gray-500">
-              <Link onClick={handleNav} href="/">
+              <Link onClick={handleNav} href="/#home">
                 Home
               </Link>
             </li>

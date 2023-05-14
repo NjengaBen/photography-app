@@ -41,9 +41,9 @@ const Slider = ({ slides }) => {
               {index === current && (
                 <Image
                   src={slide.image}
-                  width={1440}
-                  height={600}
                   alt="/"
+                  width="1440"
+                  height="600"
                   style={{ objectFit: "cover" }}
                 />
               )}
