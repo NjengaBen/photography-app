@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import InstagramImg from "./InstagramImg";
 import IgImg1 from "../Assets/ig-img-1.jpeg";
